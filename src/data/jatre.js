@@ -18,12 +18,8 @@ const jatre = [
   {
     id: 'tuesday',
     day: { kn: 'ಮಂಗಳವಾರ', en: 'Tuesday' },
-    title: { kn: 'ಕೋಣ, ಕುರ್ಚ ಮತ್ತು ಮೆರವಣಿಗೆ', en: 'The kona, the kurcha and the procession' },
+    title: { kn: 'ಕುರ್ಚ ಮತ್ತು ಮೆರವಣಿಗೆ', en: 'The kona, the kurcha and the procession' },
     items: [
-      {
-        kn: 'ಕೋಣಕ್ಕೆ ಅರಿಶಿನ, ಕುಂಕುಮ ಹಚ್ಚಿ ಎಣ್ಣೆ ಇಟ್ಟು ನೀರು ಸುರಿದು ಪೂಜೆ ಮಾಡಿ ಆರತಿ ಮಾಡುತ್ತಾರೆ.',
-        en: 'The kona is anointed with turmeric, kumkuma and oil, bathed with water, and given pooja and aarti.',
-      },
       {
         kn: 'ಮೊದಲಿಗೆ ಕುರ್ಚವನ್ನು ಕಟ್ಟಿ (ಮರದ ರಥ / ತೇರು) ಬಾವುಟ ಕಳಸಗಳನ್ನು ಕಟ್ಟಿ ಅಲಂಕರಿಸಿ ಪೂಜೆ ಮಾಡುತ್ತಾರೆ.',
         en: 'The kurcha — the wooden chariot — is assembled first, then hung with flags and kalasha, decorated and worshipped.',
@@ -32,10 +28,7 @@ const jatre = [
         kn: 'ದೇವರುಗಳು ಮತ್ತು ಕುರ್ಚವನ್ನು ಎತ್ತಿ ಹೊತ್ತು ಊರಿನ ಸುತ್ತಲೂ ಮೆರವಣಿಗೆ ಬರುತ್ತಾರೆ.',
         en: 'The deities and the kurcha are lifted and carried in procession around the village.',
       },
-      {
-        kn: 'ನಂತರ ಕೋಣವನ್ನು ಮನೆ ಮನೆಗೂ ಪೂಜೆ ಮಾಡಿಸಿ ದೇವಸ್ಥಾನದ ಹತ್ತಿರ ಕಟ್ಟುತ್ತಾರೆ. ಮನೆ ಮನೆಗೂ ಉಪ್ಪಾರಗಳನ್ನು (ಅನ್ನದ ಆರತಿ) ಪೂಜಿಸಿಕೊಂಡು ದೇವರ ಜೊತೆ ಹೊರಡುತ್ತಾರೆ.',
-        en: 'The kona is then taken from house to house for pooja and tethered near the temple. At every house the anna aarti is worshipped and carried out with the deities.',
-      },
+      
       {
         kn: 'ಇದಕ್ಕೆ ಮೊದಲು ಧನಿನಮ್ಮನ ಜೊತೆ ಪಕ್ಕದ ಊರಿನ ತಂಗಿ ಚೌಡಮ್ಮನನ್ನು ಕರೆಸುತ್ತಾರೆ.',
         en: 'Before all this, Choudamma — the younger sister from the next village — is invited to join Dhaninamma.',
@@ -58,10 +51,6 @@ const jatre = [
       {
         kn: 'ನಂತರ ತಳವಾರರಿಗೆ, ಗೌಡರಿಗೆ, ಮಡಿವಾಳರಿಗೆ, ಅರ್ಚಕರಿಗೆ, ಪಟೇಲರಿಗೆ — ಎಲ್ಲರಿಗೂ ಭಾಗಗಳನ್ನಾಗಿ ಮಾಡಿ ಹಂಚುತ್ತಾರೆ.',
         en: 'The offering is then divided into shares for the thalavaru, the gouda, the madivaala, the archaka and the patel — a portion for every household that serves.',
-      },
-      {
-        kn: 'ನಂತರ ಪಟ್ಟದ ಕೋಣ ಕಡಿಯುತ್ತಾರೆ. ಅದರ ರಕ್ತವನ್ನು ಊರಿನೊಳಗೆ ಬಲಿಯೆಂದು ಹಾಕುತ್ತಾರೆ.',
-        en: 'The pattada kona is then offered, and the bali is carried through the village.',
       },
       {
         kn: 'ಬುಧವಾರ ಸಾಯಂಕಾಲ ಹೊಲದಮ್ಮ ದೇವರಿಗೆ ಆರತಿ ಮಾಡುತ್ತಾರೆ. ಗೌಡರ ಜನಾಂಗದಲ್ಲಿ ಅಕ್ಕಿ ಸುರಿದು ಬೆಲ್ಲದ ಅಚ್ಚು ಇಡುವ ಸಂಪ್ರದಾಯ; ದಾಸಪ್ಪ ಜನಾಂಗದಲ್ಲಿ ತಂಬಿಟ್ಟು ಮಾಡುವ ಸಂಪ್ರದಾಯ.',
