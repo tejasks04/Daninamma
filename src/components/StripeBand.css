@@ -1,0 +1,36 @@
+.stripe-band {
+  position: relative;
+  height: 20px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--kumkuma) 0 20px,
+    var(--limewash) 20px 40px
+  );
+  box-shadow: inset 0 6px 10px -8px rgba(0, 0, 0, 0.55), inset 0 -6px 10px -8px rgba(0, 0, 0, 0.55);
+}
+
+.stripe-band::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.16), transparent 45%, rgba(0, 0, 0, 0.16));
+}
+
+.stripe-band--flip {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--limewash) 0 20px,
+    var(--kumkuma) 20px 40px
+  );
+}
+
+@media (max-width: 640px) {
+  .stripe-band {
+    height: 14px;
+    background: repeating-linear-gradient(90deg, var(--kumkuma) 0 13px, var(--limewash) 13px 26px);
+  }
+
+  .stripe-band--flip {
+    background: repeating-linear-gradient(90deg, var(--limewash) 0 13px, var(--kumkuma) 13px 26px);
+  }
+}
