@@ -11,6 +11,7 @@ import Gallery from './components/Gallery'
 import VideoSection from './components/VideoSection'
 import Visit from './components/Visit'
 import Footer from './components/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 /**
  * Section order follows a visit: darshan → who she is → how she came →
@@ -35,6 +36,7 @@ export default function App() {
         <Visit />
       </main>
       <Footer />
+      <Analytics />
     </>
   )
 }
