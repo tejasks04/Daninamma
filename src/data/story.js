@@ -11,8 +11,8 @@
 const story = [
   {
     type: 'lead',
-    kn: 'ಈ ಊರಿನಲ್ಲಿ ಮೊದಲಿಗೆ ಮಾರಿಯಕ್ಕ ಎಂಬ ದೇವತೆ ಇದ್ದಳು. ನಂತರ ಮಾನಂಗಿಯಿಂದ ಧನಿನಮ್ಮ ಎಂಬ ದೇವತೆ ಸೇಂದಿಗಾಡಿಯ ಮೇಲೆ ಈ ಊರಿಗೆ ಬಂದಿದ್ದಳಂತೆ. ಬಂದಾಗ ಧನಿನಮ್ಮ ಮತ್ತು ಮಾರಿಯಕ್ಕ ಇಬ್ಬರಿಗೂ ಜಗಳವಾಯಿತು; ಅರಿಶಿನ ಕುಂಕುಮಗಳು ಚೆಲ್ಲಾಡುತ್ತಿತ್ತಂತೆ. ಊರಿನ ಹಿಂಭಾಗದಲ್ಲಿ ಪಾಲು ಜಮೀನನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ವಿಷಯಕ್ಕೆ ಆ ಜಗಳ ನಡೆಯಿತು. ಕೊನೆಗೆ ಆ ಜಗಳದಲ್ಲಿ ಮಾರಿಯಕ್ಕ ಸೋತು ಶಿವಗಂಗೆಗೆ ಹೊರಟು ಹೋದಳಂತೆ.',
-    en: 'In the beginning a deity called Mariyakka resided in this village. Later a deity named Dhaninamma came from Manangi, borne in on a sendi — a toddy — cart. When she arrived the two of them fell into a quarrel, and turmeric and kumkuma scattered across the ground; the dispute was over the share of land on the far side of the village. Mariyakka was overcome in that quarrel, and she left for Shivagange.',
+    kn: 'ಹಿಂದಿನಿಂದ ಮಾರಿಯಕ್ಕ ಎಂಬ ದೇವತೆ ಇದ್ದು, ನಂತರ ಮಾನಂಗಿಯಿಂದ ಧನಿನಮ್ಮ ಎಂಬ ದೇವತೆ ಸೇಂದಿಗಾಡಿಯ ಮೇಲೆ ಬಂದಿದ್ದಳಂತೆ. ಬಂದಾಗ ಧನಿನಮ್ಮ ಎಂಬ ದೇವತೆಗೂ, ಮಾರಿಯಕ್ಕ ಎಂಬ ದೇವತೆಗೂ ಜಗಳವಾಗಿ ಅರಿಶಿನ, ಕುಂಕುಮಗಳು ಚೆಲ್ಲಾಡುತ್ತಿತ್ತಂತೆ. ಈಗಲೂ ಊರಿನ ಹಿಂಭಾಗದಲ್ಲಿ ಪಾಳು ಜಮೀನನ್ನು “ಧನಿನಮಂದೆ ಹಳ್ಳ” ಎಂದು ಹೆಸರಿದೆ; ಇವರು ಅಲ್ಲಿ ಜಗಳ ಮಾಡಿದರು. ಈ ಜಗಳದಲ್ಲಿ ಮಾರಿಯಕ್ಕ ದೇವತೆಯು ಸೋತು ಶಿವಗಂಗೆಗೆ ಹೊರಟು ಹೋದಳಂತೆ.',
+    en: 'From long before, a deity called Mariyakka was here; later a deity named Dhaninamma came from Manangi, borne in on a sendi — a toddy — cart. When she arrived, Dhaninamma and Mariyakka fell into a quarrel, and turmeric and kumkuma scattered across the ground. Even now the share of land behind the village bears the name “Dhaninamande Halla” — that is where they quarrelled. In that quarrel the deity Mariyakka was overcome, and she left for Shivagange.',
   },
   {
     type: 'p',
@@ -21,12 +21,12 @@ const story = [
   },
   {
     type: 'quote',
-    kn: 'ಎರಡು ಇಪ್ಪೆಮರದ ಮಧ್ಯ ಒಂದು ಕಣಗಲ ಗಿಡ ಇದೆ. ಅದರ ಕೆಳಗೆ ಮೂರು ಹುತ್ತದ ಕೊಪ್ಪೆ ಇದೆ. ಅದನ್ನು ಕಿತ್ತು ನೋಡಿ.',
+    kn: 'ಎರಡು ಇಪ್ಪೆಮರದ ಮಧ್ಯ ಒಂದು ಕಣಗಲ ಗಿಡ ಇದೆ. ಅದರ ಕೆಳಗೆ ಮೂರು ಹುತ್ತದ ಕೋವೆ ಇದೆ. ಅದನ್ನು ಕಿತ್ತು ನೋಡಿ.',
     en: 'Between two ippe trees stands a kanagalu shrub. Beneath it is a three-headed anthill mound. Lift it, and look.',
   },
   {
     type: 'p',
-    kn: 'ಕೊಪ್ಪೆಯನ್ನು ಕಿತ್ತು ನೋಡಿದಾಗ ಅದರ ಕೆಳಗೆ ಅರಿಶಿನ, ಕುಂಕುಮ, ಬಳೆ, ಕರಿಮಣಿ, ಬಿಚ್ಚೋಲೆ, ಒಂದು ತಾಳಿ ಮತ್ತು ಒಂದು ವಿಭೂತಿ ಗಟ್ಟಿ ಇತ್ತು. “ಅಲ್ಲಿ ನನ್ನ ಪೂಜೆ; ನಿಮ್ಮ ಗ್ರಾಮಕ್ಕೆ ನಾನು ಸದಾ ಕಾಯ್ದು ಕೊಂಡಿರುತ್ತೇನೆ” ಎಂದಳಂತೆ. ಅದೇ ಜಾಗದಲ್ಲಿಯೇ ಊರಿನವರು ದೇವಸ್ಥಾನವನ್ನು ಕಟ್ಟಿದರು. ಅದರ ಅಕ್ಕಪಕ್ಕದಲ್ಲಿ ದೊಡ್ಡಮ್ಮ, ಚಿಕ್ಕಮ್ಮ ಮತ್ತು ಮುಳಕಟ್ಟಮ್ಮ ದೇವಾಲಯಗಳಿವೆ; ಈ ದೇವತೆಗಳು ಅಕ್ಕ ತಂಗಿಯರು ಎಂಬ ನಂಬಿಕೆ ಇಂದಿಗೂ ಇದೆ.',
+    kn: 'ಕೋವೆಯನ್ನು ಕಿತ್ತು ನೋಡಿದಾಗ ಅದರ ಕೆಳಗೆ ಅರಿಶಿನ, ಕುಂಕುಮ, ಬಳೆ, ಕರಿಮಣಿ, ಬಿಚ್ಚೋಲೆ, ಒಂದು ತಾಳಿ ಮತ್ತು ಒಂದು ವಿಭೂತಿ ಗಟ್ಟಿ ಇತ್ತು. “ಅಲ್ಲಿ ನನ್ನ ಪೂಜೆ; ನಿಮ್ಮ ಗ್ರಾಮಕ್ಕೆ ನಾನು ಸದಾ ಕಾಯ್ದು ಕೊಂಡಿರುತ್ತೇನೆ” ಎಂದಳಂತೆ. ಅದೇ ಜಾಗದಲ್ಲಿಯೇ ಊರಿನವರು ದೇವಸ್ಥಾನವನ್ನು ಕಟ್ಟಿದರು. ಅದರ ಅಕ್ಕಪಕ್ಕದಲ್ಲಿ ದೊಡ್ಡಮ್ಮ, ಚಿಕ್ಕಮ್ಮ ಮತ್ತು ಮುಳಕಟ್ಟಮ್ಮ ದೇವಾಲಯಗಳಿವೆ; ಈ ದೇವತೆಗಳು ಅಕ್ಕ ತಂಗಿಯರು ಎಂಬ ನಂಬಿಕೆ ಇಂದಿಗೂ ಇದೆ.',
     en: 'When they lifted the mound they found turmeric, kumkuma, bangles, karimani beads, a bicchole, a thali and a piece of vibhuti beneath it. “My worship is there,” she said, “and I will always keep watch over your village.” On that very spot the villagers raised her temple, and beside it stand the shrines of Doddamma, Chikkamma and Mulakattamma — deities held, to this day, to be her sisters.',
   },
   { type: 'ornament', glyph: 'mould' },

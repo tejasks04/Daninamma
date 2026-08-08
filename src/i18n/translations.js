@@ -179,6 +179,64 @@ export const strings = {
     
     mapCta: { kn: 'ನಕ್ಷೆಯಲ್ಲಿ ನೋಡಿ', en: 'Open in Maps' },
     mapPlaceholder: { kn: 'ನಕ್ಷೆ ಇಲ್ಲಿ ಬರುತ್ತದೆ', en: 'Map goes here' },
+
+    /* ---- pooja timings ---- */
+    poojaLabel: { kn: 'ಪೂಜಾ ಸಮಯ', en: 'Pooja timings' },
+    poojaTimes: [
+      {
+        when: { kn: 'ಪ್ರತಿ ಮಂಗಳವಾರ ಮತ್ತು ಶುಕ್ರವಾರ', en: 'Every Tuesday and Friday' },
+        what: { kn: 'ಪೂಜೆ ಮತ್ತು ಮಹಾಮಂಗಳಾರತಿ', en: 'Pooja and Mahamangalarati' },
+        time: { kn: 'ಬೆಳಗ್ಗೆ 11:30', en: '11:30 AM' },
+      },
+      {
+        when: { kn: 'ಅಮಾವಾಸ್ಯೆ ಮತ್ತು ಹುಣ್ಣಿಮೆ', en: 'Amavasya and Poornima' },
+        what: {
+          kn: 'ವಿಶೇಷ ಪೂಜೆ, ಅಭಿಷೇಕ ಮತ್ತು ಪ್ರಸಾದ ವಿನಿಯೋಗ ಇರುತ್ತದೆ',
+          en: 'Special pooja, abhisheka and prasada distribution',
+        },
+        time: { kn: 'ಮಧ್ಯಾಹ್ನ 12:30', en: '12:30 PM' },
+        special: true,
+      },
+      {
+        when: { kn: 'ಹಬ್ಬ ಹರಿದಿನಗಳಲ್ಲಿ', en: 'On festivals and holy days' },
+        what: { kn: 'ವಿಶೇಷ ಪೂಜೆ ಮತ್ತು ಅಲಂಕಾರ', en: 'Special pooja and alankara' },
+        time: { kn: 'ಹಬ್ಬದ ದಿನ', en: 'On the day' },
+        special: true,
+      },
+      {
+        when: { kn: 'ಪ್ರತಿ ವರ್ಷ ದಸರಾ', en: 'Dasara, every year' },
+        what: {
+          kn: 'ಧನಿನಮ್ಮ ಮತ್ತು ಚೌಡಮ್ಮ ದಸರಾ ಉತ್ಸವ ಮತ್ತು ದೇವರ ಮೆರವಣಿಗೆ',
+          en: 'Dhaninamma and Choudamma Dasara utsava and the procession',
+        },
+        time: { kn: 'ವಾರ್ಷಿಕ ಉತ್ಸವ', en: 'Annual utsava' },
+        festival: true,
+      },
+    ],
+
+    /* ---- contact ---- */
+    contactLabel: { kn: 'ಸಂಪರ್ಕ', en: 'Contact' },
+    contactNote: {
+      kn: 'ಹರಕೆ, ಪೂಜೆ ಅಥವಾ ಜಾತ್ರೆಯ ದಿನಾಂಕದ ವಿವರಗಳಿಗಾಗಿ ಅರ್ಚಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.',
+      en: 'For vows, poojas or the jatre dates, please call the archakas.',
+    },
+    callHint: { kn: 'ಕರೆ ಮಾಡಲು ಒತ್ತಿ', en: 'Tap to call' },
+    archakas: [
+      {
+        // TODO replace with the real number
+        name: { kn: 'ಅಭಿಷೇಕ್', en: 'Abhishek' },
+        role: { kn: 'ಅರ್ಚಕರು', en: 'Archaka' },
+        phone: '+916362205902',
+        display: '+91 63622 05902',
+      },
+      {
+        // TODO replace with the real number
+        name: { kn: 'ಮುನಿರಾಜು', en: 'Muniraju' },
+        role: { kn: 'ಅರ್ಚಕರು', en: 'Archaka' },
+        phone: '+918722604541',
+        display: '+91 87226 04541',
+      },
+    ],
   },
 
   /* ---------------- footer ---------------- */
