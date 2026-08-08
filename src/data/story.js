@@ -32,7 +32,7 @@ const story = [
   { type: 'ornament', glyph: 'mould' },
   {
     type: 'p',
-    kn: 'ಮೆರವಣಿಗೆಗೆ ದೇವರನ್ನು ಅಚ್ಚು ಹಾಕಿಸಲು ಹೋದಾಗ ಒಂದು ವಿಚಿತ್ರ ನಡೆಯಿತು. ಮಾರಿ ರೂಪವನ್ನು ಹಾಕಿಸಿದರೂ ಆ ರೂಪ ಬರಲಿಲ್ಲ; ಬಂದದ್ದು ಲಕ್ಷ್ಮೀ ರೂಪವೇ. ಸುಮಾರು ಹತ್ತೊಂಬತ್ತು ಸಾರಿ ಹಾಕಿಸಿದರೂ ಒಂದು ಸಾರಿಯೂ ಮಾರಿ ರೂಪ ಬರಲಿಲ್ಲ. ಇಪ್ಪತ್ತನೆಯ ಅಟ್ಟಿಗೆ ಹಾಕಿಸಿದಾಗ ಮಹಾಲಕ್ಷ್ಮೀ ರೂಪ ಬಂದಿತು. ಆ ದೇವರನ್ನೇ ಇಂದಿಗೂ ಮೆರವಣಿಗೆ ದೇವರನ್ನಾಗಿ ಮಾಡುತ್ತಾರೆ; ಪ್ರತಿ ವರ್ಷ ದಸರಾ ದಿನ ಉತ್ಸವವನ್ನೂ ನಡೆಸುತ್ತಾರೆ.',
+    kn: 'ಮೆರವಣಿಗೆಗೆ ದೇವರನ್ನು ಅಚ್ಚು ಹಾಕಿಸಲು ಹೋದಾಗ ಒಂದು ವಿಚಿತ್ರ ನಡೆಯಿತು. ಮಾರಿ ರೂಪವನ್ನು ಹಾಕಿಸಿದರೂ ಆ ರೂಪ ಬರಲಿಲ್ಲ; ಬಂದದ್ದು ಲಕ್ಷ್ಮೀ ರೂಪವೇ. ಸುಮಾರು ಹತ್ತೊಂಬತ್ತು ಸಾರಿ ಹಾಕಿಸಿದರೂ ಒಂದು ಸಾರಿಯೂ ಮಾರಿ ರೂಪ ಬರಲಿಲ್ಲ. ಇಪ್ಪತ್ತನೆಯ ಅಚ್ಚಿಗೆ ಹಾಕಿಸಿದಾಗ ಮಹಾಲಕ್ಷ್ಮೀ ರೂಪ ಬಂದಿತು. ಆ ದೇವರನ್ನೇ ಇಂದಿಗೂ ಮೆರವಣಿಗೆ ದೇವರನ್ನಾಗಿ ಮಾಡುತ್ತಾರೆ; ಪ್ರತಿ ವರ್ಷ ದಸರಾ ದಿನ ಉತ್ಸವವನ್ನೂ ನಡೆಸುತ್ತಾರೆ.',
     en: 'Something strange happened when they went to cast the deity for the procession. They set out to cast the form of Mari, but that form would not come — what appeared each time was the form of Lakshmi. Nineteen times they tried, and not once did Mari appear. On the twentieth casting, the form of Mahalakshmi came. That is the deity carried in procession to this day, and the utsava is held for her every year on Dasara.',
   },
   { type: 'ornament', glyph: 'pot' },
