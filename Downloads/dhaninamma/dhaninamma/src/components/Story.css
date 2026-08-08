@@ -1,0 +1,128 @@
+.story__head {
+  max-width: 62ch;
+}
+
+/* a single measured column, set like a page in a book */
+.story__prose {
+  max-width: 68ch;
+}
+
+.story__p {
+  margin: 0 0 1.5rem;
+  font-size: var(--step-1);
+  line-height: 1.95;
+  color: rgba(240, 228, 206, 0.86);
+  text-wrap: pretty;
+}
+
+body[data-lang='kn'] .story__p {
+  line-height: 2.1;
+}
+
+/* the opening paragraph carries a little more weight */
+.story__p--lead {
+  font-size: var(--step-2);
+  line-height: 1.78;
+  color: var(--cream);
+}
+
+body[data-lang='kn'] .story__p--lead {
+  line-height: 1.95;
+}
+
+/* Drop cap only in English — a Kannada opening letter is a cluster and
+   ::first-letter would break it apart. */
+body[data-lang='en'] .story__p--lead::first-letter {
+  float: left;
+  margin: 0.1em 0.1em 0 0;
+  padding-right: 0.06em;
+  font-family: var(--en-display);
+  font-size: 3.7em;
+  font-weight: 700;
+  line-height: 0.82;
+  color: var(--kumkuma);
+  text-shadow: 0 0 30px rgba(165, 22, 42, 0.5);
+}
+
+/* ---- her own words ---- */
+.story__quote {
+  position: relative;
+  margin: 2.2rem 0 2.4rem;
+  padding-left: clamp(1.2rem, 3vw, 2rem);
+}
+
+.story__quote::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  bottom: 0.35em;
+  width: 3px;
+  border-radius: 3px;
+  background: repeating-linear-gradient(180deg, var(--kumkuma) 0 10px, var(--arishina) 10px 20px);
+}
+
+.story__quote p {
+  margin: 0;
+  font-family: var(--kn-display);
+  font-size: var(--step-2);
+  font-weight: 500;
+  line-height: 1.62;
+  color: var(--gold-soft);
+}
+
+body[data-lang='en'] .story__quote p {
+  font-family: var(--en-display);
+  font-style: italic;
+}
+
+.story__quote p::before {
+  content: '“';
+}
+
+.story__quote p::after {
+  content: '”';
+}
+
+/* ---- divider between movements of the story ---- */
+.story__ornament {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: clamp(2.2rem, 5vw, 3.2rem) 0;
+}
+
+.story__ornament-rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(239, 200, 115, 0.34), transparent);
+}
+
+.story__ornament-mark {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(239, 200, 115, 0.32);
+  background: radial-gradient(circle at 36% 28%, #33202a, #180e13);
+  color: var(--gold);
+  box-shadow: 0 0 22px -8px rgba(239, 200, 115, 0.45);
+}
+
+/* ---- closing line ---- */
+.story__close {
+  margin: clamp(2rem, 4.5vw, 3rem) 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(239, 200, 115, 0.16);
+  font-family: var(--kn-display);
+  font-size: var(--step-1);
+  font-weight: 600;
+  color: var(--gold);
+}
+
+body[data-lang='en'] .story__close {
+  font-family: var(--en-display);
+  font-style: italic;
+}
