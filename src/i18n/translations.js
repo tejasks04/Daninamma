@@ -258,7 +258,7 @@ export const strings = {
     nav: { kn: 'ಪುಟಗಳು', en: 'Pages' },
     top: { kn: 'ಮೇಲಕ್ಕೆ', en: 'Back to top' },
     rights: { kn: 'ಎಲ್ಲ ಹಕ್ಕುಗಳು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.', en: 'All rights reserved.' },
-    designedBy: { kn: 'ವಿನ್ಯಾಸ', en: 'Designed by  ' },
+    designedBy: { kn: 'ರಚನೆ', en: 'Designed by  ' },
     designerName: { kn: 'ತೇಜಸ್ ಕೆ ಎಸ್', en: 'Tejas K S' },
   },
 };
