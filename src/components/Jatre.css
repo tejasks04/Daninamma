@@ -1,0 +1,152 @@
+.jatre {
+  background: linear-gradient(180deg, #1b1017 0%, var(--sanctum) 40%, #1b1017 100%);
+}
+
+.jatre__days {
+  display: grid;
+  gap: 1px;
+  background: rgba(239, 200, 115, 0.16);
+}
+
+.day {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 2.6rem);
+  padding: clamp(1.6rem, 3.4vw, 2.4rem) 0;
+  background: var(--sanctum);
+  transition: background-color 500ms var(--ease);
+}
+
+.day:hover {
+  background: #1f131a;
+}
+
+.day__label {
+  position: relative;
+}
+
+.day__tag {
+  position: sticky;
+  top: 6.5rem;
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  border: 1px solid rgba(165, 22, 42, 0.6);
+  border-radius: 999px;
+  background: rgba(165, 22, 42, 0.14);
+  font-family: var(--en-body);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #f0a9ac;
+  white-space: nowrap;
+}
+
+body[data-lang='kn'] .day__tag {
+  font-family: var(--kn-body);
+  font-size: 0.86rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.day__title {
+  margin: 0 0 1rem;
+  font-family: var(--kn-display);
+  font-size: var(--step-2);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--gold-soft);
+}
+
+body[data-lang='en'] .day__title {
+  font-family: var(--en-display);
+}
+
+.day__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+  max-width: 70ch;
+}
+
+.day__items li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: rgba(240, 228, 206, 0.8);
+}
+
+.day__items li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.72em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--arishina);
+  box-shadow: 0 0 0 3px rgba(217, 154, 11, 0.14);
+}
+
+/* ---- the chain of hands ---- */
+.chain {
+  margin-top: clamp(2.6rem, 6vw, 4.5rem);
+  padding: clamp(2rem, 5vw, 3.2rem) clamp(1.4rem, 4vw, 3rem);
+  border: 1px solid rgba(239, 200, 115, 0.24);
+  border-radius: 6px;
+  background: radial-gradient(ellipse at 50% 0%, rgba(165, 22, 42, 0.22), transparent 70%), #1a1016;
+  text-align: center;
+}
+
+.chain__art {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 6px;
+  height: 34px;
+  margin-bottom: 1.3rem;
+}
+
+.chain__art span {
+  width: 12px;
+  height: 22px;
+  border-radius: 6px 6px 2px 2px;
+  background: linear-gradient(180deg, var(--gold) 0%, rgba(165, 22, 42, 0.7) 100%);
+  opacity: 0.7;
+  animation: chain-sway 3.6s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 140ms);
+}
+
+.chain__title {
+  margin: 0 0 0.7rem;
+  font-family: var(--kn-display);
+  font-size: var(--step-2);
+  font-weight: 700;
+  color: var(--gold);
+}
+
+body[data-lang='en'] .chain__title {
+  font-family: var(--en-display);
+}
+
+.chain__text {
+  max-width: 56ch;
+  margin: 0 auto;
+  color: rgba(240, 228, 206, 0.82);
+}
+
+@keyframes chain-sway {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-5px) rotate(4deg); }
+}
+
+@media (max-width: 760px) {
+  .day {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+  .day__tag {
+    position: static;
+  }
+}
