@@ -18,7 +18,7 @@ const jatre = [
   {
     id: 'tuesday',
     day: { kn: 'ಮಂಗಳವಾರ', en: 'Tuesday' },
-    title: { kn: 'ಕುರ್ಚ ಮತ್ತು ಮೆರವಣಿಗೆ', en: 'The kona, the kurcha and the procession' },
+    title: { kn: 'ಕುರ್ಚ ಮತ್ತು ಮೆರವಣಿಗೆ', en: 'The kurcha and the procession' },
     items: [
       {
         kn: 'ಮೊದಲಿಗೆ ಕುರ್ಚವನ್ನು ಕಟ್ಟಿ (ಮರದ ರಥ / ತೇರು) ಬಾವುಟ ಕಳಸಗಳನ್ನು ಕಟ್ಟಿ ಅಲಂಕರಿಸಿ ಪೂಜೆ ಮಾಡುತ್ತಾರೆ.',
