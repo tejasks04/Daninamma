@@ -64,7 +64,7 @@ const jatre = [
         en: 'The pattada kona is then offered, and the bali is carried through the village.',
       },
       {
-        kn: 'ಬುಧವಾರ ಸಾಯಂಕಾಲ ಹೊಲದಮ್ಮ ದೇವರಿಗೆ ಆರತಿ ಮಾಡುತ್ತಾರೆ. ಗೌಡರ ಜನಾಂಗದಲ್ಲಿ ಅಕ್ಕಿ ಸುರಿದು ಬೆಲ್ಲದ ಅಟ್ಟು ಇಡುವ ಸಂಪ್ರದಾಯ; ದಾಸಪ್ಪ ಜನಾಂಗದಲ್ಲಿ ತಂಬಿಟ್ಟು ಮಾಡುವ ಸಂಪ್ರದಾಯ.',
+        kn: 'ಬುಧವಾರ ಸಾಯಂಕಾಲ ಹೊಲದಮ್ಮ ದೇವರಿಗೆ ಆರತಿ ಮಾಡುತ್ತಾರೆ. ಗೌಡರ ಜನಾಂಗದಲ್ಲಿ ಅಕ್ಕಿ ಸುರಿದು ಬೆಲ್ಲದ ಅಚ್ಚು ಇಡುವ ಸಂಪ್ರದಾಯ; ದಾಸಪ್ಪ ಜನಾಂಗದಲ್ಲಿ ತಂಬಿಟ್ಟು ಮಾಡುವ ಸಂಪ್ರದಾಯ.',
         en: 'On Wednesday evening the aarti is offered to Holadamma. Among the Gouda families the custom is to pour rice and set jaggery; among the Dasappa families it is tambittu.',
       },
     ],
