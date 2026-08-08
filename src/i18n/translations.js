@@ -142,10 +142,10 @@ export const strings = {
     },
     all: { kn: 'ಎಲ್ಲಾ', en: 'All' },
     placeholder: { kn: 'ಚಿತ್ರ ಸೇರಿಸಬೇಕಿದೆ', en: 'Photo to be added' },
-    hint: {
-      kn: 'ಚಿತ್ರಗಳನ್ನು public/images ಫೋಲ್ಡರ್‌ಗೆ ಹಾಕಿ src/data/gallery.js ನಲ್ಲಿ ಹೆಸರು ನಮೂದಿಸಿ.',
-      en: 'Drop your photos into public/images and list their file names in src/data/gallery.js.',
-    },
+    // hint: {
+    //   kn: 'ಚಿತ್ರಗಳನ್ನು public/images ಫೋಲ್ಡರ್‌ಗೆ ಹಾಕಿ src/data/gallery.js ನಲ್ಲಿ ಹೆಸರು ನಮೂದಿಸಿ.',
+    //   en: 'Drop your photos into public/images and list their file names in src/data/gallery.js.',
+    // },
     prev: { kn: 'ಹಿಂದಿನ ಚಿತ್ರ', en: 'Previous photo' },
     next: { kn: 'ಮುಂದಿನ ಚಿತ್ರ', en: 'Next photo' },
     closeView: { kn: 'ಮುಚ್ಚು', en: 'Close' },
