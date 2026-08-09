@@ -7,7 +7,7 @@ import './Footer.css'
 const links = ['about', 'story', 'sisters', 'jatre', 'gallery', 'video', 'visit']
 
 /** ← put your portfolio link here */
-const PORTFOLIO_URL = 'https://portfolio-olive-nu-39.vercel.app/'
+const PORTFOLIO_URL = 'https://www.tejasks.space/'
 
 export default function Footer() {
   const { t } = useLang()
